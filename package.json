@@ -1,0 +1,43 @@
+{
+  "name": "reviewz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_DEPLOY=dev NODE_ENV=dev vue-cli-service serve --mode dev",
+    "production": "cross-env NODE_DEPLOY=production NODE_ENV=production vue-cli-service serve",
+    "build": "cross-env NODE_DEPLOY=production NODE_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ali-oss": "^6.1.1",
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.8.2",
+    "fabric": "^2.7.0",
+    "js-cookie": "^2.2.0",
+    "uuid": "^3.3.2",
+    "vue": "^2.6.10",
+    "vue-easy-print": "0.0.8",
+    "vue-router": "^3.0.3",
+    "vue-video-player": "^5.0.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "001": {
+    "snap": {
+      "width": "1111",
+      "height": "",
+      "src": ""
+    },
+    "comments": [
+      {
+        "cid": "",
+        "pointNum": "",
+        "time": "",
+        "user": "",
+        "content": "",
+        "children": [
+          {
+            "cid": "",
+            "pointNum": "",
+            "time": "",
+            "user": "",
+            "content": ""
+          }
+        ]
+      }
+    ]
+  },
+  "002": {
+    "snap": {
+      "width": "",
+      "height": "",
+      "src": ""
+    },
+    "comments": [
+      {
+        "cid": "",
+        "pointNum": "",
+        "time": "",
+        "user": "",
+        "content": "",
+        "children": []
+      }
+    ]
+  }
+}
